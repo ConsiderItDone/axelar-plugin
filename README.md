@@ -28,7 +28,7 @@ client = new Web3ApiClient({
   plugins: [
     {
       uri: "w3://ens/axelar.web3api.eth",
-      plugin: axelarPlugin(nearConfig)
+      plugin: axelarPlugin(axelarConfig)
     }
   ]
 });
