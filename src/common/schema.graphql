@@ -1,0 +1,6 @@
+type EnvironmentConfig {
+  resourceUrl: String!
+  axelarRpcUrl: String!
+  axelarLcdUrl: String!
+  axelarCachingServiceUrl: String!
+}
