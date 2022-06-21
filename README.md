@@ -35,4 +35,4 @@ client = new Web3ApiClient({
 
 ```
 
-Now you're ready to make queries to the [Axelar wrapper](./../wrapper).
+Now you're ready to make queries to the [Axelar wrapper](https://github.com/ConsiderItDone/axelar-wrapper).
