@@ -18,7 +18,8 @@ export class SocketService {
         transports: ["websocket"],
         extraHeaders: {
           "User-Agent":
-            "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
+            "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+          //"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
         },
       });
     } else {
@@ -27,7 +28,8 @@ export class SocketService {
         reconnectionDelayMax: 10000,
         extraHeaders: {
           "User-Agent":
-            "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
+            "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+          //"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
         },
       });
     }

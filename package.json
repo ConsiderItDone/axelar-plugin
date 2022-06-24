@@ -2,7 +2,7 @@
   "name": "@cidt/axelar-polywrap-js",
   "description": "Polywrap TypeScript plugin for Axelar",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
