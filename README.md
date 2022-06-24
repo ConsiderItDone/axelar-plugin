@@ -28,11 +28,11 @@ client = new Web3ApiClient({
   plugins: [
     {
       uri: "w3://ens/axelar.web3api.eth",
-      plugin: axelarPlugin(nearConfig)
+      plugin: axelarPlugin(axelarConfig)
     }
   ]
 });
 
 ```
 
-Now you're ready to make queries to the [Axelar wrapper](./../wrapper).
+Now you're ready to make queries to the [Axelar wrapper](https://github.com/ConsiderItDone/axelar-wrapper).
