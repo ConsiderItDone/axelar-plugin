@@ -11,6 +11,7 @@ or with NPM: `npm install axelar-polywrap-js`
 
 Set up your Axelar config.
 ```typescript
+import { AxelarPluginConfig } from "@cidt/axelar-polywrap-js";
 
 export async function setUpTestConfig(): Promise<AxelarPluginConfig> {
   let config: AxelarPluginConfig = {
