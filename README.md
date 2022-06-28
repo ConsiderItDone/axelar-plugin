@@ -21,14 +21,17 @@ export async function setUpTestConfig(): Promise<AxelarPluginConfig> {
 }
 
 const axelarConfig = setUpTestConfig();
+
+export default axelarConfig;
 ```
 
 Then add the plugin to the Polywrap Client configuration.
 ```typescript
 import { Web3ApiClient } from "@web3api/client-js";
 import { plugin as axelarPlugin } from "@cidt/axelar-polywrap-js";
+import axelarConfig from "./utils/config";
 
-client = new Web3ApiClient({
+const client = new Web3ApiClient({
   plugins: [
     {
       uri: "w3://ens/axelar.web3api.eth",
