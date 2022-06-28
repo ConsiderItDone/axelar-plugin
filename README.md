@@ -24,6 +24,9 @@ const axelarConfig = setUpTestConfig();
 
 Then add the plugin to the Polywrap Client configuration.
 ```typescript
+import { Web3ApiClient } from "@web3api/client-js";
+import { plugin as axelarPlugin } from "@cidt/axelar-polywrap-js";
+
 client = new Web3ApiClient({
   plugins: [
     {
