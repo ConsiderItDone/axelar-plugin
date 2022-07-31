@@ -1,3 +1,9 @@
+type Module {
+  getLinkEvent(roomId: String!): String!
+  getTraceId: String!
+  getConfig: EnvironmentConfig!
+}
+
 type EnvironmentConfig {
   resourceUrl: String!
   axelarRpcUrl: String!

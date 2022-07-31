@@ -1,4 +1,4 @@
-import { EnvironmentConfig } from "../query/w3";
+import { EnvironmentConfig } from "../wrap";
 
 const configsMap: { [environment: string]: EnvironmentConfig } = {};
 
